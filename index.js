@@ -41,6 +41,21 @@ const untilNum = (num) => {
 const multiply = (num1, num2) => {
     return (num1 * num2);
 }
-console.log(multiply(2, 4));
-console.log(multiply(10, -5));
-console.log(multiply(3, 7.5));
+// console.log(multiply(2, 4));
+// console.log(multiply(10, -5));
+// console.log(multiply(3, 7.5));
+
+//Jandir completed 6th function
+const add = (num1, num2) => {
+    let sum = num1 + num2;
+    if (num1 === num2) {
+        return sum * 3;
+    } else {
+        return sum;
+    }
+    // return num1 === num2 ? sum * 3 : sum;
+}
+
+// console.log(add(2, 4));
+// console.log(add(5, 5));
+// console.log(add(10, -5));
