@@ -67,6 +67,17 @@ const isNegative = (num) => {
     } else {
         return false;
     }
-    console.log(isNegative(3));
-    console.log(isNegative(-2));
-    console.log(isNegative(Math.PI));
+    // return num < 0;
+}
+// console.log(isNegative(3));
+// console.log(isNegative(-2));
+// console.log(isNegative(Math.PI));
+
+//Jandir completed 8th function
+const triangleArea = (height, base) => {
+    let area = 0.5 * height * base;
+    return area;
+}
+
+console.log(triangleArea(5, 7));
+console.log(triangleArea(6, 8));
