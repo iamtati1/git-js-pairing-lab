@@ -15,7 +15,7 @@ const multiplesOfThree = () => {
     }
 }
 // multiplesOfThree();// 
-
+//Tatiana completed 3rd function 
 const multiplesOfThreeOrFive = () => {
     for (let count = 3; count <= 100; count++) {
         if (count % 3 === 0 || count % 5 === 0) {
@@ -23,5 +23,16 @@ const multiplesOfThreeOrFive = () => {
         }
     }
 }
-multiplesOfThreeOrFive();
+// multiplesOfThreeOrFive();
 // multiplesOfThree();
+
+//Jandir completed 4th function
+const untilNum = (num) => {
+
+    for (let count = 1; count <= num; count++) {
+        console.log(count);
+    }
+}
+// untilNum(5);
+// untilNum(9);
+// untilNum(42);
