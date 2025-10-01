@@ -36,3 +36,11 @@ const untilNum = (num) => {
 // untilNum(5);
 // untilNum(9);
 // untilNum(42);
+
+//Tatiana completed the 5th function
+const multiply = (num1, num2) => {
+    return (num1 * num2);
+}
+console.log(multiply(2, 4));
+console.log(multiply(10, -5));
+console.log(multiply(3, 7.5));
