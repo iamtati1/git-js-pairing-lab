@@ -14,4 +14,4 @@ const multiplesOfThree = () => {
         console.log(count);
     }
 }
-multiplesOfThree();
+// multiplesOfThree();
