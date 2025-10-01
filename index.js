@@ -14,4 +14,14 @@ const multiplesOfThree = () => {
         console.log(count);
     }
 }
-multiplesOfThree();
+// multiplesOfThree();// 
+
+const multiplesOfThreeOrFive = () => {
+    for (let count = 3; count <= 100; count++) {
+        if (count % 3 === 0 || count % 5 === 0) {
+            console.log(count);
+        }
+    }
+}
+multiplesOfThreeOrFive();
+// multiplesOfThree();
