@@ -86,5 +86,21 @@ const triangleArea = (height, base) => {
 const betweenTwentyAndFourty = (num) => {
     return num > 20 && num < 40;
 }
-console.log(betweenTwentyAndFourty(39));
-console.log(betweenTwentyAndFourty(40));
+// console.log(betweenTwentyAndFourty(39));
+// console.log(betweenTwentyAndFourty(40));
+
+//Jandir completed 10th function
+
+const largest = (a, b, c) => {
+    if (a > c) {
+        return a;
+    } else if (c > b) {
+        return c;
+    } else {// (b > a)
+        return b;
+    }
+}
+
+console.log(largest(4, 6, 8));       //returns 8
+console.log(largest(30, 22, 17));   //returns 30
+console.log(largest(41, 108, 86));    //returns 108
