@@ -79,5 +79,12 @@ const triangleArea = (height, base) => {
     return area;
 }
 
-console.log(triangleArea(5, 7));
-console.log(triangleArea(6, 8));
+// console.log(triangleArea(5, 7));
+// console.log(triangleArea(6, 8));
+
+//Tatiana completed 9th function
+const betweenTwentyAndFourty = (num) => {
+    return num > 20 && num < 40;
+}
+console.log(betweenTwentyAndFourty(39));
+console.log(betweenTwentyAndFourty(40));
