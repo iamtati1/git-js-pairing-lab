@@ -5,4 +5,13 @@ const fiveToOneHundred = () => {
         console.log(i);
     }
 }
-fiveToOneHundred();
+// fiveToOneHundred();
+
+//Jandir - completed 2nd function 
+
+const multiplesOfThree = () => {
+    for (let count = 3; count <= 100; count += 3) {
+        console.log(count);
+    }
+}
+multiplesOfThree();
