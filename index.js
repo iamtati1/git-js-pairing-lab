@@ -68,7 +68,6 @@ const isNegative = (num) => {
     } else {
         return false;
     }
-}
-console.log(isNegative(3));
-console.log(isNegative(-2));
-console.log(isNegative(Math.PI));
+    console.log(isNegative(3));
+    console.log(isNegative(-2));
+    console.log(isNegative(Math.PI));
