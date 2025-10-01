@@ -59,3 +59,16 @@ const add = (num1, num2) => {
 // console.log(add(2, 4));
 // console.log(add(5, 5));
 // console.log(add(10, -5));
+
+// Tatiana completed this function
+
+const isNegative = (num) => {
+    if (num < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isNegative(3));
+console.log(isNegative(-2));
+console.log(isNegative(Math.PI));
