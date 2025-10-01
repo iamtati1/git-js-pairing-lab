@@ -61,7 +61,6 @@ const add = (num1, num2) => {
 // console.log(add(10, -5));
 
 // Tatiana completed this function
-
 const isNegative = (num) => {
     if (num < 0) {
         return true;
