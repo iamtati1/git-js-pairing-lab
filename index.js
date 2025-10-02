@@ -105,7 +105,7 @@ const largest = (a, b, c) => {
 // console.log(`${largest(20, 32, 17)} is the greatest number.`);   //returns 30
 // console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108
 
-//Bonus Questions - Tati - Problem # 11
+//Bonus Questions - Tati - Problem #11
 const printTime = () => {
     const date = new Date();
     const hours = date.getHours();
@@ -114,3 +114,11 @@ const printTime = () => {
     console.log(hours + ":" + minutes + ":" + seconds)
 }
 printTime();
+
+// Bonus Questions - Tati - Problem #13
+const getExtention = (filename) => {
+    return filename.split('.').pop(); //split seperates it after the period. pop() is the extension.
+}
+console.log(getExtention("hello.txt")); //return ".txt"
+console.log(getExtention("app.js")); //returns ".js"
+console.log(getExtention("README.md")); // returns ".md"
