@@ -101,6 +101,20 @@ const largest = (a, b, c) => {
     }
 };
 
-console.log(`${largest(4, 6, 8)} is the greatest number.`);       //returns 8
-console.log(`${largest(20, 32, 17)} is the greatest number.`);   //returns 30
-console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108   
+// console.log(`${largest(4, 6, 8)} is the greatest number.`);       //returns 8
+// console.log(`${largest(20, 32, 17)} is the greatest number.`);   //returns 30
+// console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108   
+
+//problem 12 - Jandir
+const isLeapYear = (year) =>{
+    return (year % 100 !== 0 || year % 400 === 0) && year % 4 === 0;
+}
+// console.log(isLeapYear(2000));    //returns true
+// console.log(isLeapYear(1900));  //returns false
+// console.log(isLeapYear(2020)); //returns true
+// console.log(isLeapYear(1999));  //returns false
+
+//problem 14 - Jandir 
+const absoluteNineteen = (num) => {
+    if()
+}
