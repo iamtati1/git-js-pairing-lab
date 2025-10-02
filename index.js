@@ -4,7 +4,7 @@ const fiveToOneHundred = () => {
     for (let i = 5; i <= 100; i++) {
         console.log(i);
     }
-}
+};
 // fiveToOneHundred();
 
 //Jandir - completed 2nd function 
@@ -22,7 +22,7 @@ const multiplesOfThreeOrFive = () => {
             console.log(count);
         }
     }
-}
+};
 // multiplesOfThreeOrFive();
 // multiplesOfThree();
 
@@ -40,7 +40,7 @@ const untilNum = (num) => {
 //Tatiana completed the 5th function
 const multiply = (num1, num2) => {
     return (num1 * num2);
-}
+};
 // console.log(multiply(2, 4));
 // console.log(multiply(10, -5));
 // console.log(multiply(3, 7.5));
@@ -68,7 +68,7 @@ const isNegative = (num) => {
         return false;
     }
     // return num < 0;
-}
+};
 // console.log(isNegative(3));
 // console.log(isNegative(-2));
 // console.log(isNegative(Math.PI));
@@ -85,7 +85,7 @@ const triangleArea = (height, base) => {
 //Tatiana completed 9th function
 const betweenTwentyAndFourty = (num) => {
     return num > 20 && num < 40;
-}
+};
 // console.log(betweenTwentyAndFourty(39));
 // console.log(betweenTwentyAndFourty(40));
 
@@ -123,7 +123,7 @@ printTime()
 // Bonus Questions - Tati - Problem #13
 const getExtention = (filename) => {
     return filename.split('.').pop(); //split seperates it after the period. pop() is the extension.
-}
+};
 console.log(getExtention("hello.txt")); //return ".txt"
 console.log(getExtention("app.js")); //returns ".js"
 console.log(getExtention("README.md")); // returns ".md"
