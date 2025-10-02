@@ -101,6 +101,16 @@ const largest = (a, b, c) => {
     }
 };
 
-console.log(`${largest(4, 6, 8)} is the greatest number.`);       //returns 8
-console.log(`${largest(20, 32, 17)} is the greatest number.`);   //returns 30
-console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108   
+// console.log(`${largest(4, 6, 8)} is the greatest number.`);       //returns 8
+// console.log(`${largest(20, 32, 17)} is the greatest number.`);   //returns 30
+// console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108
+
+//Bonus Questions - Tati - Problem # 11
+const printTime = () => {
+    const date = new Date();
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+    console.log(hours + ":" + minutes + ":" + seconds)
+}
+printTime();
