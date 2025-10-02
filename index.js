@@ -116,5 +116,25 @@ const isLeapYear = (year) =>{
 
 //problem 14 - Jandir 
 const absoluteNineteen = (num) => {
-    if()
+    let difference = 19 - num;
+    let absDiff = difference < 0 ? -difference : difference;
+
+    return num > 19 ? absDiff * 3 : absDiff;
 }
+// console.log(absoluteNineteen(10));
+// console.log(absoluteNineteen(25));
+//Completed 16 Jandir
+const changeString = (word) =>{
+    const alphabet = "abcdefghijklmnopqrstuvwxyz";
+    let newStr = "";
+    for(let i = 0; i < word.length; i++){
+        for(let j = 0; j < alphabet.length; j++){
+            if(word[i] === alphabet[j]){
+                newStr += alphabet[j+1];
+            }
+        }
+    }
+    return newStr;
+};
+console.log(changeString("helloworld"));
+console.log(changeString("abd"));
