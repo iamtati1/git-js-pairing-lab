@@ -13,7 +13,7 @@ const multiplesOfThree = () => {
     for (let count = 3; count <= 100; count += 3) {
         console.log(count);
     }
-}
+};
 // multiplesOfThree();// 
 //Tatiana completed 3rd function 
 const multiplesOfThreeOrFive = () => {
@@ -32,7 +32,7 @@ const untilNum = (num) => {
     for (let count = 1; count <= num; count++) {
         console.log(count);
     }
-}
+};
 // untilNum(5);
 // untilNum(9);
 // untilNum(42);
@@ -54,7 +54,7 @@ const add = (num1, num2) => {
         return sum;
     }
     // return num1 === num2 ? sum * 3 : sum;
-}
+};
 
 // console.log(add(2, 4));
 // console.log(add(5, 5));
@@ -77,7 +77,7 @@ const isNegative = (num) => {
 const triangleArea = (height, base) => {
     let area = 0.5 * height * base;
     return area;
-}
+};
 
 // console.log(triangleArea(5, 7));
 // console.log(triangleArea(6, 8));
@@ -108,7 +108,7 @@ const largest = (a, b, c) => {
 //problem 12 - Jandir
 const isLeapYear = (year) =>{
     return (year % 100 !== 0 || year % 400 === 0) && year % 4 === 0;
-}
+};
 // console.log(isLeapYear(2000));    //returns true
 // console.log(isLeapYear(1900));  //returns false
 // console.log(isLeapYear(2020)); //returns true
@@ -120,7 +120,7 @@ const absoluteNineteen = (num) => {
     let absDiff = difference < 0 ? -difference : difference;
 
     return num > 19 ? absDiff * 3 : absDiff;
-}
+};
 // console.log(absoluteNineteen(10));
 // console.log(absoluteNineteen(25));
 //Completed 16 Jandir
