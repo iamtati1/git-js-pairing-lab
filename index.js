@@ -108,12 +108,17 @@ const largest = (a, b, c) => {
 //Bonus Questions - Tati - Problem #11
 const printTime = () => {
     const date = new Date();
-    const hours = date.getHours();
-    const minutes = date.getMinutes();
-    const seconds = date.getSeconds();
-    console.log(hours + ":" + minutes + ":" + seconds)
-}
-printTime();
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+
+    hours = String(hours).padStart(2, "0");
+    minutes = String(minutes).padStart(2, "0");
+    seconds = String(seconds).padStart(2, "0");
+
+    console.log(hours + ":" + minutes + ":" + seconds);
+};
+printTime()
 
 // Bonus Questions - Tati - Problem #13
 const getExtention = (filename) => {
