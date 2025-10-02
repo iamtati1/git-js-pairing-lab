@@ -92,15 +92,15 @@ const betweenTwentyAndFourty = (num) => {
 //Jandir completed 10th function
 
 const largest = (a, b, c) => {
-    if (a > c) {
+    if (a >= b && a >= c) {
         return a;
-    } else if (c > b) {
-        return c;
-    } else {// (b > a)
+    } else if (b >= a && b >= c) {
         return b;
+    } else {
+        return c;
     }
-}
+};
 
-console.log(largest(4, 6, 8));       //returns 8
-console.log(largest(30, 22, 17));   //returns 30
-console.log(largest(41, 108, 86));    //returns 108
+console.log(`${largest(4, 6, 8)} is the greatest number.`);       //returns 8
+console.log(`${largest(20, 32, 17)} is the greatest number.`);   //returns 30
+console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108   
