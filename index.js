@@ -122,3 +122,18 @@ const getExtention = (filename) => {
 console.log(getExtention("hello.txt")); //return ".txt"
 console.log(getExtention("app.js")); //returns ".js"
 console.log(getExtention("README.md")); // returns ".md"
+
+// Bonus Questions - Tati - Problem #15
+const switchLetters = (str) => {
+    if (str.length <= 1) return str; // if string is too short, returns string as is
+
+    let first = str[0] //gets the 1st letter of the string
+    let last = str[str.length - 1]; //gets the last letter of the string
+    let middle = str.slice(1, -1); //gets everything in between
+    return last + middle + first; // returns it in a way that displays it with the (last letter) + (the middle) + (the first letter); like the problem asks
+};
+
+console.log(switchLetters("anne"));
+console.log(switchLetters("hello world"));
+console.log(switchLetters("a"));
+console.log(switchLetters(""));
