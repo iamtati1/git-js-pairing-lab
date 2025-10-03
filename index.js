@@ -13,7 +13,7 @@ const multiplesOfThree = () => {
     for (let count = 3; count <= 100; count += 3) {
         console.log(count);
     }
-}
+};
 // multiplesOfThree();// 
 //Tatiana completed 3rd function 
 const multiplesOfThreeOrFive = () => {
@@ -32,7 +32,7 @@ const untilNum = (num) => {
     for (let count = 1; count <= num; count++) {
         console.log(count);
     }
-}
+};
 // untilNum(5);
 // untilNum(9);
 // untilNum(42);
@@ -54,7 +54,7 @@ const add = (num1, num2) => {
         return sum;
     }
     // return num1 === num2 ? sum * 3 : sum;
-}
+};
 
 // console.log(add(2, 4));
 // console.log(add(5, 5));
@@ -77,7 +77,7 @@ const isNegative = (num) => {
 const triangleArea = (height, base) => {
     let area = 0.5 * height * base;
     return area;
-}
+};
 
 // console.log(triangleArea(5, 7));
 // console.log(triangleArea(6, 8));
@@ -103,7 +103,7 @@ const largest = (a, b, c) => {
 
 // console.log(`${largest(4, 6, 8)} is the greatest number.`);       //returns 8
 // console.log(`${largest(20, 32, 17)} is the greatest number.`);   //returns 30
-// console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108
+// console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108   
 
 //Bonus Questions - Tati - Problem #11
 const printTime = () => {
@@ -120,6 +120,15 @@ const printTime = () => {
 };
 printTime()
 
+//problem 12 - Jandir
+const isLeapYear = (year) =>{ 
+    return (year % 100 !== 0 || year % 400 === 0) && year % 4 === 0;
+};
+// console.log(isLeapYear(2000));    //returns true
+// console.log(isLeapYear(1900));  //returns false
+// console.log(isLeapYear(2020)); //returns true
+// console.log(isLeapYear(1999));  //returns false
+
 // Bonus Questions - Tati - Problem #13
 const getExtention = (filename) => {
     return filename.split('.').pop(); //split seperates it after the period. pop() is the extension.
@@ -127,6 +136,16 @@ const getExtention = (filename) => {
 console.log(getExtention("hello.txt")); //return ".txt"
 console.log(getExtention("app.js")); //returns ".js"
 console.log(getExtention("README.md")); // returns ".md"
+
+//problem 14 - Jandir 
+const absoluteNineteen = (num) => {
+    let difference = 19 - num;
+    let absDiff = difference < 0 ? -difference : difference;
+
+    return num > 19 ? absDiff * 3 : absDiff;
+};
+// console.log(absoluteNineteen(10));
+// console.log(absoluteNineteen(25));
 
 // Bonus Questions - Tati - Problem #15
 const switchLetters = (str) => {
@@ -142,3 +161,22 @@ console.log(switchLetters("anne"));
 console.log(switchLetters("hello world"));
 console.log(switchLetters("a"));
 console.log(switchLetters(""));
+
+//Completed 16 Jandir
+const changeString = (word) =>{
+    const alphabet = "abcdefghijklmnopqrstuvwxyz";
+    let newStr = "";
+    for(let i = 0; i < word.length; i++){
+        for(let j = 0; j < alphabet.length; j++){
+            if(word[i] === alphabet[j]){
+                newStr += alphabet[j+1];
+            }
+        }
+    }
+    return newStr;
+};
+console.log(changeString("helloworld"));
+console.log(changeString("abd"));
+=======
+// console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108
+
