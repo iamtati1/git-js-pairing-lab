@@ -122,7 +122,7 @@ printTime()
 
 // Bonus Questions - Tati - Problem #13
 const getExtention = (filename) => {
-    return filename.split('.').pop(); //split seperates it after the period. pop() is the extension.
+    return "." + filename.split('.').pop(); //split seperates it after the period. pop() is the extension.
 };
 console.log(getExtention("hello.txt")); //return ".txt"
 console.log(getExtention("app.js")); //returns ".js"
