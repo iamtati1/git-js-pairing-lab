@@ -131,7 +131,7 @@ const isLeapYear = (year) =>{
 
 // Bonus Questions - Tati - Problem #13
 const getExtention = (filename) => {
-    return "." + filename.split('.').pop(); //split seperates it after the period. pop() is the extension.
+    return "."+filename.split('.').pop(); //split seperates it after the period. pop() is the extension.
 };
 console.log(getExtention("hello.txt")); //return ".txt"
 console.log(getExtention("app.js")); //returns ".js"
@@ -177,6 +177,5 @@ const changeString = (word) =>{
 };
 console.log(changeString("helloworld"));
 console.log(changeString("abd"));
-=======
 // console.log(`${largest(41, 108, 86)} is the greatest number.`);    //returns 108
 
